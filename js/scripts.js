@@ -1,14 +1,8 @@
-// ================================
-//     Business Logic
-// ================================
-
-// Pizza Constructor, represents a single pizza
 function Pizza(pizzaSize, cheese) {
   this.pizzaSize = pizzaSize;
   this.cheese = cheese;
   this.meatToppings = [];
   this.vegToppings = [];
-  // this.cost (created in the refreshCost method)
 }
 Pizza.prototype.addMeat = function(meat) {
   this.meatToppings.push(meat);
@@ -19,19 +13,19 @@ Pizza.prototype.addVeg = function(veggie) {
 Pizza.prototype.refreshCost = function() {
   var cost = 0;
   if (this.pizzaSize === "medium") {
-    cost = 9;
+    cost = 900;
   } else if (this.pizzaSize === "small") {
-    cost = 7;
+    cost = 700;
   } else if (this.pizzaSize === "large") {
-    cost = 11;
+    cost = 1100;
   } else if (this.pizzaSize === "extra large") {
-    cost = 13;
+    cost = 1500;
   }
   this.meatToppings.forEach(function() {
-    cost += 1.25;
+    cost += 100;
   });
   this.vegToppings.forEach(function() {
-    cost += 0.75;
+    cost += 100;
   });
   if (this.cheese === "extra") {
     cost += 1;

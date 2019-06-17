@@ -2,20 +2,20 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Pepino's Pizza</title>
-  	<script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
+    <title>King-Njosh-Pizza-Inn!</title>
   	<link rel="stylesheet" href="css/bootstrap.min.css">
   	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
-  	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-  	<link rel="stylesheet" href="css/styles.css">
-  	<script type="text/javascript" src="js/scripts.js"></script>
+     <link rel="stylesheet" href="css/styles.css">
+	   <script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
+  	 <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  	 <script type="text/javascript" src="js/scripts.js"></script>
   </head>
   <body>
     <div class="header page-header">
-      <h1>Njoro Karugu Pizza</h1>
-      <h2>Only the finest ingredients!</h2>
+      <h1> King-Njosh-Pizza-Inn</h1>
+      <h2>Best pizzas in town!</h2>
     </div>
-    <div class="container bg-warning">
+    <div class="container">
       <div class="launch-order">
         <h3>Order Now!</h3>
         <p>We're ready to take your order and deliver at no extra cost. Just click the button below to begin</p>
@@ -26,23 +26,18 @@
         <form>
           <div class="form-group">
             <label for="customer-name">Name: </label>
-            <input id="customer-name" type="text" placeholder="John Doe">
+            <input id="customer-name" type="text" placeholder="Username">
           </div>
           <div class="form-group">
             <label for="customer-street">Address: </label>
-            <input id="customer-street" type="text" placeholder="123 Main Street">
+            <input id="customer-street" type="text" placeholder="Address">
           </div>
           <div class="form-group">
             <label for="customer-city">City: </label>
-            <input id="customer-city" type="text" placeholder="Portland">
+            <input id="customer-city" type="text" placeholder="City">
           </div>
-          <div class="form-group">
-            <label for="customer-zip-code">Zip Code: </label>
-            <input id="customer-zip-code" type="text" placeholder="97214">
-          </div>
-          <div class="form-group">
             <label for="customer-phone">Phone Number: </label>
-            <input id="customer-phone" type="text" placeholder="555-555-5555">
+            <input id="customer-phone" type="text" placeholder="">
           </div>
           <div class="form-group">
             <label class="checkbox-inline"><input type="radio" name="cash-credit" value="cash" checked>Cash</label>
@@ -56,13 +51,13 @@
         <form>
           <div class="size form-group">
             <h4>Pie Size:</h4>
-            <label class="checkbox-inline"><input type="radio" name="pie-size" value="small"> Small ($7)</label>
-            <label class="checkbox-inline"><input type="radio" name="pie-size" value="medium" checked> Medium ($9)</label>
-            <label class="checkbox-inline"><input type="radio" name="pie-size" value="large"> Large ($11)</label>
-            <label class="checkbox-inline"><input type="radio" name="pie-size" value="extra large"> Extra Large ($13)</label>
+            <label class="checkbox-inline"><input type="radio" name="pie-size" value="small"> Small (700)</label>
+            <label class="checkbox-inline"><input type="radio" name="pie-size" value="medium" checked> Medium (900)</label>
+            <label class="checkbox-inline"><input type="radio" name="pie-size" value="large"> Large (1100)</label>
+            <label class="checkbox-inline"><input type="radio" name="pie-size" value="extra large"> Extra Large (1500)</label>
           </div>
           <div class="meat-toppings  form-group">
-            <h4>Meats: ($1.25 each) </h4>
+            <h4>Meats: (100 each) </h4>
             <label class="checkbox-inline">
               <input type="checkbox" name="meat-toppings" value="Pepperoni">Pepperoni
             </label>
@@ -133,7 +128,6 @@
         <div class="pizza-list"></div>
         <h3>Total Cost: <span id="pizza-list-total-cost"></span></h3>
         <button id="add-another-pizza" class="btn btn-success">Add another Pizza</button>
-        <button id="checkout-order" class="btn btn-success">Checkout Out</button>
       </div>
       <div class="checked-out  initially-hidden">
         <h3>Your order is on its way!</h3>

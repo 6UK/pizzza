@@ -1,6 +1,6 @@
 # _Pizza Ordering Website_
 
-#### _Allows a user to create an order for pizza delivery, 1.29.2016_
+#### _Allows a user to create an order for pizza delivery.
 
 ### By _**Njoroge karugu**_
 

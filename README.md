@@ -32,4 +32,4 @@ _Feel free to contact the author of this project through his GitHub account
 ### License
 MIT License.
 
-Copyright (c) 2016 **_Njoroge karugu
+Copyright (c) 2019 **_Njoroge karugu
